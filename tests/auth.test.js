@@ -5,6 +5,9 @@ describe('Authentication', () => {
     });
 });
 
+    test('login with invalid credentials', () => {
+        // Test for failure case
+    });
 
 
 
