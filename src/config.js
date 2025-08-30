@@ -5,3 +5,9 @@ const config = {
 };
 
 module.exports = config;
+
+const config = {
+    apiUrl: 'https://api.webflow.com',  // изменили на https
+    timeout: 5000,
+    maxRetries: 3  // добавили
+};

@@ -5,3 +5,6 @@ function validateEmail(email) {
 
 module.exports = { validateEmail };
 
+function sanitizeInput(input) {
+    return input.replace(/[<>]/g, '');  // защита от XSS
+}
