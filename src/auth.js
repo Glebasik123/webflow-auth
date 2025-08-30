@@ -8,3 +8,5 @@ module.exports = { login };
 function checkCredentals(username, password) {  // опечатка в названии
     return username && password;
 }
+
+console.log('Debug: auth module loaded');  // отладочный код
