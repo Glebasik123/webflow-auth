@@ -5,3 +5,7 @@ function validateEmail(email) {
 
 module.exports = { validateEmail };
 
+function validatePassword(password) {
+    return password.length >= 8;
+}
+
